@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="1" time="4.616">
+  <testsuite name="Hackermaps" errors="0" failures="1" skipped="0" timestamp="2022-04-09T18:22:01" time="3.653" tests="5">
+    <testcase classname="Hackermaps Should render all the locations in the list" name="Hackermaps Should render all the locations in the list" time="0.036">
+    </testcase>
+    <testcase classname="Hackermaps Should have correct buttons for each location" name="Hackermaps Should have correct buttons for each location" time="0.02">
+      <failure>Error: expect(received).toBeFalsy()
+
+Received: &lt;button class=&quot;icon-only small mx-0&quot; data-testid=&quot;up-button&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;arrow_upward&lt;/i&gt;&lt;/button&gt;
+    at Object.&lt;anonymous&gt; (C:\Users\shann\Desktop\hackerrank-assessment\eb6ecb19-66df-48f0-aa8f-e0bfc407976c\src\App.test.js:66:68)
+    at Object.asyncJestTest (C:\Users\shann\Desktop\hackerrank-assessment\eb6ecb19-66df-48f0-aa8f-e0bfc407976c\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\shann\Desktop\hackerrank-assessment\eb6ecb19-66df-48f0-aa8f-e0bfc407976c\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\shann\Desktop\hackerrank-assessment\eb6ecb19-66df-48f0-aa8f-e0bfc407976c\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\shann\Desktop\hackerrank-assessment\eb6ecb19-66df-48f0-aa8f-e0bfc407976c\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should move the location down on clicking the down button" name="Hackermaps Should move the location down on clicking the down button" time="0.021">
+    </testcase>
+    <testcase classname="Hackermaps Should move the location up on clicking the up button" name="Hackermaps Should move the location up on clicking the up button" time="0.022">
+    </testcase>
+    <testcase classname="Hackermaps Should be in correct state after a series of actions" name="Hackermaps Should be in correct state after a series of actions" time="0.022">
+    </testcase>
+  </testsuite>
+</testsuites>
